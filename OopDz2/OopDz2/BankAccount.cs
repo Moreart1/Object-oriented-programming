@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace OopDz2
 {
     enum AccountType { Current, Savings }
+    
     class Bank
     {
         private static int counter = 1;
@@ -80,8 +81,36 @@ namespace OopDz2
         }
         public void Info()
         {
-            Console.WriteLine($"Тип счёта: {_typeAccount}, Номер счёта: {_number}, Баланс: {_balance}");
+            Console.WriteLine($"Тип счёта: {_typeAccount}, Номер счёта: {_number}, Баланс: {_balance}\n");
         }
-        
+        public void DepositMoney(int number,int put)
+        {
+            if (number==_number)
+            {
+                Console.WriteLine($"Тип счёта: {_typeAccount}, Номер счёта: {_number}, Баланс: {_balance}\n");
+                _balance += put;
+                Console.WriteLine($"Счет   {_number} пополнен на: {put}") ;
+                Console.WriteLine($"Теперь ваш баланс: {_balance}");
+                
+            }
+        }
+        public void TakeofMoney(int number,int take)
+        {
+            if (number==_number)
+            {
+                if (_balance>=take)
+                {
+                    Console.WriteLine($"Тип счёта: {_typeAccount}, Номер счёта: {_number}, Баланс: {_balance}\n");
+                    _balance -= take;
+                    Console.WriteLine($"Со счета  {_number} сняли :{take}");
+                    Console.WriteLine($"Ваш баланс :{_balance}");
+                    
+                }
+                else
+                {
+                    Console.WriteLine($"На счету недостаточно средств.Ваш баланс: {_balance}\n");
+                }
+            }
+        }
     }
 }
