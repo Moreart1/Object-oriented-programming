@@ -13,7 +13,7 @@ namespace OopDz2
         {
             Bank bankCurrent = new Bank("14997GTY789", 554875, AccountType.Current);
             Console.WriteLine($"{bankCurrent}\n");
-            
+
 
             Bank bankSavings = new Bank("1554EFG567", 192540, AccountType.Savings);
             Console.WriteLine(bankSavings);
