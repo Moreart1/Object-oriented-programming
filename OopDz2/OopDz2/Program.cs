@@ -12,13 +12,13 @@ namespace OopDz2
         static void Main(string[] args)
         {
             Bank Account1 = new Bank(100);
-            Console.WriteLine(Account1);
+            Account1.Info();
 
             Bank Account2 = new Bank(AccountType.Savings);
-            Console.WriteLine(Account2);
+            Account2.Info();
 
             Bank Account3 = new Bank(145000, AccountType.Current);
-            Console.WriteLine(Account3);
+            Account3.Info();
             
         }
     }
