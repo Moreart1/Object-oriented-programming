@@ -9,16 +9,19 @@ namespace OopDz2
     enum AccountType { Current, Savings }
     class Bank
     {
-        public Bank(string accountnumber, decimal balance, AccountType type)
+        private static int _number = 0;
+        public int Number { get { return _number++; } }
+
+        public Bank(int accountnumber, decimal balance, AccountType type)
         {
             _Accountnumber = accountnumber;
             _Balance = balance;
             _Type = type;
         }
-        private string _Accountnumber { get; set; }
+        private  int _Accountnumber { get; set; }
         private decimal _Balance { get; set; }
 
         private AccountType _Type { get; set; }
-        public override string ToString() => $"Accountnumber-{_Accountnumber},Balans-{_Balance},Type-{_Type}";
+        public override string ToString() => $"Accountnumber-{Number},Balans-{_Balance},Type-{_Type}";
     }
 }

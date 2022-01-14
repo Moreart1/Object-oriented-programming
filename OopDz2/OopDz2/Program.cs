@@ -11,10 +11,10 @@ namespace OopDz2
     {
         static void Main(string[] args)
         {
-            Bank bankCurrent = new Bank("14997GTY789", 554875, AccountType.Current);
+            Bank bankCurrent = new Bank(14997789, 554875, AccountType.Current);
             Console.WriteLine($"{bankCurrent}\n");
 
-            Bank bankSavings = new Bank("1554EFG567", 192540, AccountType.Savings);
+            Bank bankSavings = new Bank(1554567, 192540, AccountType.Savings);
             Console.WriteLine(bankSavings);
         }
     }
