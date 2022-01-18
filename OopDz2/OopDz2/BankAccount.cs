@@ -112,5 +112,19 @@ namespace OopDz2
                 }
             }
         }
+        public void MoneyTransfer(Bank FromMoney, decimal take)
+        {
+            if (FromMoney._balance > take)
+            {
+                _balance = _balance + take;
+                FromMoney._balance = FromMoney._balance - take;
+                Console.WriteLine($"На счёт: {_number}; Зачислена сумма {take}; Остаток на счету: {_balance};");
+                Console.WriteLine($"Со счёта: {FromMoney._number}; Списана сумма: {take}; Остаток на счету: {FromMoney._balance};");
+            }
+            else
+            {
+                Console.WriteLine($"Недостаточно средств на счёте: {FromMoney._number}, для списания суммы: {take}");
+            }
+        }
     }
 }
