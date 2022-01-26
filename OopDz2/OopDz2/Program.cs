@@ -11,11 +11,20 @@ namespace OopDz2
     {
         static void Main(string[] args)
         {
-            Bank bankCurrent = new Bank("14997GTY789", 554875, AccountType.Current);
-            Console.WriteLine($"{bankCurrent}\n");
+            Bank Account1 = new Bank(100);
+            Account1.DepositMoney(1,500);
+            Account1.TakeofMoney(1, 300);
+            Account1.Info();
 
-            Bank bankSavings = new Bank("1554EFG567", 192540, AccountType.Savings);
-            Console.WriteLine(bankSavings);
+            Bank Account2 = new Bank(AccountType.Savings);
+            Account2.Info();
+            Account2.TakeofMoney(2, 155);
+
+            Bank Account3 = new Bank(145000, AccountType.Current);
+            Account3.Info();
+            Account3.DepositMoney(3, 13000);
+            Account3.TakeofMoney(3, 140000);
+            
         }
     }
 }
