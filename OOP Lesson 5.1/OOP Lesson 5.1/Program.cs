@@ -15,8 +15,9 @@ namespace OOP_Lesson_5._1
             RationalNumbers rational7 = new(3, 5);
             RationalNumbers rational8 = new(6, 3);
             RationalNumbers rational9 = new(2, 4);
-            
-            
+            RationalNumbers rational10 = new(10, 15);
+            RationalNumbers rational11 = new(11, 30);
+
             Console.WriteLine("Проверяем равна/не равна ли первая дробь второй ");
             Console.Write(rational1 == rational4);
             Console.Write("\t");
@@ -28,9 +29,9 @@ namespace OOP_Lesson_5._1
             Console.WriteLine(rational5 < rational6);
 
             Console.WriteLine("Сложение и вычитание дробей");
-            Console.Write(rational1 + rational3);
+            Console.Write(rational10 + rational11);
             Console.Write("\t");
-            Console.WriteLine(rational7 - rational2);
+            Console.WriteLine(rational11 - rational8);
 
             Console.WriteLine("Умножение и деление дробей");
             Console.Write(rational3 * rational4);
