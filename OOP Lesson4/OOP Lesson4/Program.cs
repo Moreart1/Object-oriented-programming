@@ -5,22 +5,21 @@ namespace OOP_Lesson4
     class Program
     {
         static void Main(string[] args)
-        {
-            Crteator.CreateBuild(3, 14, 15); //Первая цифра сколько квартир на одном этаже,вторая цифра сколько этажей и третья цифра кол-во подъездов...
-            Crteator.CreateBuild(4, 6, 11);
-            Crteator.CreateBuild(3, 16, 25);
-            Crteator.CreateBuild(4, 2, 2);
-            Crteator.CreateBuild(4, 5,6 );
+        { 
+            Building building = new();
+            building.AddTest(4, 8, 7, 5);
 
-            Crteator.HashtablePrint();
-
-            Console.WriteLine();
-
-            Crteator.DeleteBuild(2);
-
-            Crteator.HashtablePrint();
+            Building building2 = new();
+            building2.Add(3, 4, 5);
             
+            Building building3 = new();
+            building3.Add(4, 6, 8);
 
+
+            building.Print();
+            building2.Print();
+            building3.Print();
+            
         }
     }
 }
