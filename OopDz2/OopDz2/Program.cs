@@ -21,7 +21,7 @@ namespace OopDz2
             Bank Account2 = new Bank(AccountType.Savings);
             Account2.Info();
             Account2.TakeofMoney(2, 155);
-
+            
             Bank Account3 = new Bank(145000, AccountType.Current);
             Account3.Info();
             Account3.DepositMoney(3, 13000);
