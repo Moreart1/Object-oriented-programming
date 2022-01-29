@@ -1,0 +1,16 @@
+C:\Users\Mark\Desktop\OOP\Object-oriented-programming\OOP_Lesson3.3\OOP_Lesson3.3\bin\Debug\net5.0\OOP_Lesson3.3.exe
+C:\Users\Mark\Desktop\OOP\Object-oriented-programming\OOP_Lesson3.3\OOP_Lesson3.3\bin\Debug\net5.0\OOP_Lesson3.3.deps.json
+C:\Users\Mark\Desktop\OOP\Object-oriented-programming\OOP_Lesson3.3\OOP_Lesson3.3\bin\Debug\net5.0\OOP_Lesson3.3.runtimeconfig.json
+C:\Users\Mark\Desktop\OOP\Object-oriented-programming\OOP_Lesson3.3\OOP_Lesson3.3\bin\Debug\net5.0\OOP_Lesson3.3.runtimeconfig.dev.json
+C:\Users\Mark\Desktop\OOP\Object-oriented-programming\OOP_Lesson3.3\OOP_Lesson3.3\bin\Debug\net5.0\OOP_Lesson3.3.dll
+C:\Users\Mark\Desktop\OOP\Object-oriented-programming\OOP_Lesson3.3\OOP_Lesson3.3\bin\Debug\net5.0\ref\OOP_Lesson3.3.dll
+C:\Users\Mark\Desktop\OOP\Object-oriented-programming\OOP_Lesson3.3\OOP_Lesson3.3\bin\Debug\net5.0\OOP_Lesson3.3.pdb
+C:\Users\Mark\Desktop\OOP\Object-oriented-programming\OOP_Lesson3.3\OOP_Lesson3.3\obj\Debug\net5.0\OOP_Lesson3.3.csproj.AssemblyReference.cache
+C:\Users\Mark\Desktop\OOP\Object-oriented-programming\OOP_Lesson3.3\OOP_Lesson3.3\obj\Debug\net5.0\OOP_Lesson3.3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mark\Desktop\OOP\Object-oriented-programming\OOP_Lesson3.3\OOP_Lesson3.3\obj\Debug\net5.0\OOP_Lesson3.3.AssemblyInfoInputs.cache
+C:\Users\Mark\Desktop\OOP\Object-oriented-programming\OOP_Lesson3.3\OOP_Lesson3.3\obj\Debug\net5.0\OOP_Lesson3.3.AssemblyInfo.cs
+C:\Users\Mark\Desktop\OOP\Object-oriented-programming\OOP_Lesson3.3\OOP_Lesson3.3\obj\Debug\net5.0\OOP_Lesson3.3.csproj.CoreCompileInputs.cache
+C:\Users\Mark\Desktop\OOP\Object-oriented-programming\OOP_Lesson3.3\OOP_Lesson3.3\obj\Debug\net5.0\OOP_Lesson3.3.dll
+C:\Users\Mark\Desktop\OOP\Object-oriented-programming\OOP_Lesson3.3\OOP_Lesson3.3\obj\Debug\net5.0\ref\OOP_Lesson3.3.dll
+C:\Users\Mark\Desktop\OOP\Object-oriented-programming\OOP_Lesson3.3\OOP_Lesson3.3\obj\Debug\net5.0\OOP_Lesson3.3.pdb
+C:\Users\Mark\Desktop\OOP\Object-oriented-programming\OOP_Lesson3.3\OOP_Lesson3.3\obj\Debug\net5.0\OOP_Lesson3.3.genruntimeconfig.cache
