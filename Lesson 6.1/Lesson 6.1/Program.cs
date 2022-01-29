@@ -29,10 +29,12 @@ namespace Lesson_6._1
             Console.WriteLine(account4==account5);
             Console.WriteLine();
             Console.WriteLine(account4 != account5);
+            Console.WriteLine(account4.Equals(account5));
             Console.WriteLine();
             Console.WriteLine(account4.Equals(account5));//баланс и тип счета одинаковые,но выводит false,так как мы описали сравнение еще и по номеру,а он у нас генерируется
             Console.WriteLine();
             Console.WriteLine(account3.GetHashCode());
+
             Console.WriteLine();
             Console.WriteLine(account2.ToString());
         }
